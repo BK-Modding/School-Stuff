@@ -1,0 +1,3 @@
+[submodule "udemy-dl"]
+	path = udemy-dl
+	url = ./
