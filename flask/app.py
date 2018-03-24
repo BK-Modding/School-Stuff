@@ -9,8 +9,8 @@ def index():
     
 @app.route('/getsomething/<int:kappa>')
 def getsomething(kappa):
-    return get.returnsomething(kappa)
+    return str(get.returnsomething(kappa))
     
     
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",port=8080)
+    app.run(host="0.0.0.0",port=8080, debug=True)
